@@ -1,34 +1,33 @@
-package _01_Junit;
+package _01_Basics;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.time.Duration;
 
-public class C03_BeforeClassAfterClass {
+public class C02_BeforeAfter {
 
-    // @BeforeClass and @AfterClass notations works once before and after class.
-    // Does not work if not static.
-
-    static WebDriver driver;
-    @BeforeClass
-    public static void setUp(){
+    // @Before and @After notations works before and after all tests.
+    WebDriver driver;
+    @Before
+    public void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
-    @AfterClass
-    public static void tearDown(){
+    @After
+    public void tearDown(){
         driver.close();
     }
     @Test
     public void test01(){
+        // Before method call
         driver.get("https://www.amazon.com");
+        // After method call
     }
     @Test
     public void test02(){

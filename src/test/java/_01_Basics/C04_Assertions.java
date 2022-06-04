@@ -1,4 +1,4 @@
-package _01_Junit;
+package _01_Basics;
 
 import org.junit.Assert;
 import org.junit.Test;

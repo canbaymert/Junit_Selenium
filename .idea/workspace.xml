@@ -5,21 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ada779a-0c9e-494b-982b-916efd4ad111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C01_TestMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C02_BeforeAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C03_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C04_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C05_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C06_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Junit/C07_DropDownMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C08_IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_02_Alerts/C01_JavaScriptAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_02_Alerts/C02_BasicAutentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C01_TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C01_TestMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C02_BeforeAfter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C02_BeforeAfter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C03_BeforeClassAfterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C03_BeforeClassAfterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C04_Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C04_Assertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C05_CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C05_CheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C06_RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C06_RadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Junit/C07_DropDownMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C07_DropDownMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Mert/IdeaProjects/Junit_Selenium/.idea"
   }
 }]]></component>
@@ -49,17 +59,65 @@
       <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src\test\java\_01_Junit" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.C01_JavaScriptAlerts.sendKeysAlert">
+    <configuration name="C01_JavaScriptAlerts.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_Alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_02_Alerts" />
+      <option name="MAIN_CLASS_NAME" value="_02_Alerts.C01_JavaScriptAlerts" />
+      <option name="METHOD_NAME" value="dismissAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_JavaScriptAlerts.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_Alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_02_Alerts" />
+      <option name="MAIN_CLASS_NAME" value="_02_Alerts.C01_JavaScriptAlerts" />
+      <option name="METHOD_NAME" value="sendKeysAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_JavaScriptAlerts.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_Alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_02_Alerts" />
+      <option name="MAIN_CLASS_NAME" value="_02_Alerts.C01_JavaScriptAlerts" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_TestMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_Junit.*" />
+          <option name="PATTERN" value="_01_Basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="_01_Junit" />
-      <option name="MAIN_CLASS_NAME" value="_01_Junit.C01_TestMethods" />
+      <option name="MAIN_CLASS_NAME" value="_01_Basics.C01_TestMethods" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,6 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_JavaScriptAlerts.sendKeysAlert" />
+        <item itemvalue="JUnit.C01_JavaScriptAlerts.dismissAlert" />
+        <item itemvalue="JUnit.C01_JavaScriptAlerts.test01" />
         <item itemvalue="JUnit.C01_TestMethods" />
       </list>
     </recent_temporary>
