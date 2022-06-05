@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ada779a-0c9e-494b-982b-916efd4ad111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_07_Synchronization/C01_ImplicitlyExplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_08_Cookies/C01_Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_09_WebTables/C01_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_09_WebTables/C02_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Countries.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q01_WebElementGetText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q02_RelativeLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q03_CssLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q04_Shopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q05_YandexMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q06_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q07_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q08_ExplicitlyWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q09_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q10_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q11_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_10_Screenshot/C01_PageScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_10_Screenshot/C02_WebElementScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_11_JavaScriptExecutor/C01_JSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C01_ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C02_StoreExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C03_WriteExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,95 +57,98 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Mert/IdeaProjects/Junit_Selenium/.idea"
+    "last_opened_file_path": "C:/Users/Mert/IdeaProjects/Junit_Selenium/src/test/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src\test\java" />
+      <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src" />
       <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\.idea" />
       <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium" />
       <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src\test\java\_01_Junit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_03_HandleWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_WebTables.Test01">
-    <configuration name="C01_Cookies.cookiesTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Q11_WebTables.webTableTest">
+    <configuration name="Q09_Alert.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_08_Cookies.*" />
+          <option name="PATTERN" value="Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_08_Cookies" />
-      <option name="MAIN_CLASS_NAME" value="_08_Cookies.C01_Cookies" />
-      <option name="METHOD_NAME" value="cookiesTesti" />
+      <option name="PACKAGE_NAME" value="Practices" />
+      <option name="MAIN_CLASS_NAME" value="Practices.Q09_Alert" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_FileActions.FileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q10_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06_File.*" />
+          <option name="PATTERN" value="Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_06_File" />
-      <option name="MAIN_CLASS_NAME" value="_06_File.C01_FileActions" />
-      <option name="METHOD_NAME" value="FileExists" />
+      <option name="PACKAGE_NAME" value="Practices" />
+      <option name="MAIN_CLASS_NAME" value="Practices.Q10_Iframe" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q10_Iframe.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practices" />
+      <option name="MAIN_CLASS_NAME" value="Practices.Q10_Iframe" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_FileActions.FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q11_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06_File.*" />
+          <option name="PATTERN" value="Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_06_File" />
-      <option name="MAIN_CLASS_NAME" value="_06_File.C01_FileActions" />
-      <option name="METHOD_NAME" value="FileUpload" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Practices" />
+      <option name="MAIN_CLASS_NAME" value="Practices.Q11_WebTables" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WebTables.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q11_WebTables.webTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_09_WebTables.*" />
+          <option name="PATTERN" value="Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_09_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="_09_WebTables.C02_WebTables" />
-      <option name="METHOD_NAME" value="Test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_keyboardActions.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_04_Actions" />
-      <option name="MAIN_CLASS_NAME" value="_04_Actions.C02_keyboardActions" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="PACKAGE_NAME" value="Practices" />
+      <option name="MAIN_CLASS_NAME" value="Practices.Q11_WebTables" />
+      <option name="METHOD_NAME" value="webTableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_WebTables.Test01" />
-        <item itemvalue="JUnit.C01_Cookies.cookiesTesti" />
-        <item itemvalue="JUnit.C01_FileActions.FileUpload" />
-        <item itemvalue="JUnit.C01_FileActions.FileExists" />
-        <item itemvalue="JUnit.C02_keyboardActions.test03" />
+        <item itemvalue="JUnit.Q11_WebTables.webTableTest" />
+        <item itemvalue="JUnit.Q11_WebTables" />
+        <item itemvalue="JUnit.Q10_Iframe" />
+        <item itemvalue="JUnit.Q10_Iframe.test" />
+        <item itemvalue="JUnit.Q09_Alert.test" />
       </list>
     </recent_temporary>
   </component>
