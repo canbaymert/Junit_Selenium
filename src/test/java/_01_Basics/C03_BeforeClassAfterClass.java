@@ -13,7 +13,6 @@ public class C03_BeforeClassAfterClass {
 
     // @BeforeClass and @AfterClass notations works once before and after class.
     // Does not work if not static.
-
     static WebDriver driver;
     @BeforeClass
     public static void setUp(){

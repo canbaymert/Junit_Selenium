@@ -10,7 +10,7 @@ import utilities.TestBase;
 public class C04_Assertions extends TestBase {
 
     @Test
-    public void test01() {
+    public void AssertTrue() {
         // Navigate to http://automationpractice.com/index.php
         driver.get("http://automationpractice.com/index.php");
         // Press the Sign in button
@@ -21,9 +21,8 @@ public class C04_Assertions extends TestBase {
         WebElement alertTextElement = driver.findElement(By.xpath("//*[text()='Invalid email address.']"));
         Assert.assertTrue(alertTextElement.isDisplayed());
     }
-
     @Test
-    public void test02() {
+    public void AssertTrue2() {
         driver.get("https://www.amazon.com");
         String keyword = "amazon";
         String actualUrl = driver.getCurrentUrl();
@@ -31,14 +30,14 @@ public class C04_Assertions extends TestBase {
     }
 
     @Test
-    public void test03() {
+    public void AssertFalse() {
         driver.get("https://www.facebook.com");
         String keyword = "facebook";
         String actualTitle = driver.getTitle();
         Assert.assertFalse(actualTitle.contains(keyword));
     }
     @Test
-    public void test04(){
+    public void AssertEquals(){
         driver.get("https://www.amazon.com");
         String expectedUrl="https://www.facebook.com";
         String actualUrl=driver.getCurrentUrl();

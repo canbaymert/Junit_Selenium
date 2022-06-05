@@ -8,7 +8,7 @@ import utilities.TestBase;
 public class C05_CheckBox extends TestBase {
 
     @Test
-    public void test01() throws InterruptedException {
+    public void Checkbox() throws InterruptedException {
         // Navigate to given website
         // https://the-internet.herokuapp.com/checkboxes
         driver.get("https://the-internet.herokuapp.com/checkboxes");

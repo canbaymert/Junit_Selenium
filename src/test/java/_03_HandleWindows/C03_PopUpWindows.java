@@ -13,7 +13,7 @@ public class C03_PopUpWindows extends TestBase {
     public void test01() {
         // Navigate to https://the-internet.herokuapp.com/windows adresine gidin.
         driver.get("https://the-internet.herokuapp.com/windows");
-        //Confirm that the header is “Opening a new window”.
+        // Confirm that the header is “Opening a new window”.
         WebElement headerElement = driver.findElement(By.xpath("//h3"));
         String expectedHeader = "Opening a new window";
         String actualHeader = headerElement.getText();
