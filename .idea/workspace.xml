@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ada779a-0c9e-494b-982b-916efd4ad111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/Countries.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q01_WebElementGetText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q02_RelativeLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q03_CssLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q04_Shopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q05_YandexMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q06_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q07_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q08_ExplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q09_Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q10_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/Q11_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_10_Screenshot/C01_PageScreenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_10_Screenshot/C02_WebElementScreenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_11_JavaScriptExecutor/C01_JSExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C01_ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C02_StoreExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_12_Excel/C03_WriteExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practices/Q09_Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practices/Q09_Alert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Mert/IdeaProjects/Junit_Selenium/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mert/IdeaProjects/Junit_Selenium/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mert\IdeaProjects\Junit_Selenium\src\test\java" />

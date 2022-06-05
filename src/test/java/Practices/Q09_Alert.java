@@ -7,7 +7,7 @@ import utilities.TestBase;
 
 public class Q09_Alert extends TestBase {
 
-    //    Go to url :http://demo.automationtesting.in/Alerts.html
+    //    Go to url : http://demo.automationtesting.in/Alerts.html
     //    Click  "Alert with OK" then click 'click the button to display an alert box:'
     //    Accept alert and print the alert on console
     //    Click "Alert with OK & Cancel" then click 'click the button to display a confirm box'
