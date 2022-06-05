@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ada779a-0c9e-494b-982b-916efd4ad111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_04_Actions/C01_mouseActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_04_Actions/C02_keyboardActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_05_Faker/C01_FakerFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_06_File/C01_FileActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Basics/C03_BeforeClassAfterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C03_BeforeClassAfterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Basics/C04_Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C04_Assertions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_01_Basics/C05_CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_Basics/C05_CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_02_Alerts/C02_BasicAutentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_02_Alerts/C02_BasicAutentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_03_HandleWindows/C03_PopUpWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_03_HandleWindows/C03_PopUpWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_04_Actions/C02_keyboardActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_04_Actions/C02_keyboardActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,66 +54,50 @@
       <recent name="_03_HandleWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_keyboardActions.test02">
-    <configuration name="C01_mouseActions.contextClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_FileActions.FileUpload">
+    <configuration name="C01_FakerFile.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_Actions.*" />
+          <option name="PATTERN" value="_05_Faker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_04_Actions" />
-      <option name="MAIN_CLASS_NAME" value="_04_Actions.C01_mouseActions" />
-      <option name="METHOD_NAME" value="contextClick" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_mouseActions.dragDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_04_Actions" />
-      <option name="MAIN_CLASS_NAME" value="_04_Actions.C01_mouseActions" />
-      <option name="METHOD_NAME" value="dragDrop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_mouseActions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_04_Actions" />
-      <option name="MAIN_CLASS_NAME" value="_04_Actions.C01_mouseActions" />
+      <option name="PACKAGE_NAME" value="_05_Faker" />
+      <option name="MAIN_CLASS_NAME" value="_05_Faker.C01_FakerFile" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Windows.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_FileActions.FileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_03_HandleWindows.*" />
+          <option name="PATTERN" value="_06_File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_03_HandleWindows" />
-      <option name="MAIN_CLASS_NAME" value="_03_HandleWindows.C02_Windows" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="_06_File" />
+      <option name="MAIN_CLASS_NAME" value="_06_File.C01_FileActions" />
+      <option name="METHOD_NAME" value="FileExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_FileActions.FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_06_File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_06_File" />
+      <option name="MAIN_CLASS_NAME" value="_06_File.C01_FileActions" />
+      <option name="METHOD_NAME" value="FileUpload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,13 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_keyboardActions.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_Actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_04_Actions" />
+      <option name="MAIN_CLASS_NAME" value="_04_Actions.C02_keyboardActions" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_FileActions.FileUpload" />
+        <item itemvalue="JUnit.C01_FileActions.FileExists" />
+        <item itemvalue="JUnit.C02_keyboardActions.test03" />
+        <item itemvalue="JUnit.C01_FakerFile.test01" />
         <item itemvalue="JUnit.C02_keyboardActions.test02" />
-        <item itemvalue="JUnit.C01_mouseActions.dragDrop" />
-        <item itemvalue="JUnit.C01_mouseActions.contextClick" />
-        <item itemvalue="JUnit.C01_mouseActions.test01" />
-        <item itemvalue="JUnit.C02_Windows.test01" />
       </list>
     </recent_temporary>
   </component>

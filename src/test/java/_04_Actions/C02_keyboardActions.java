@@ -1,5 +1,6 @@
 package _04_Actions;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -60,5 +61,23 @@ public class C02_keyboardActions extends TestBase {
                 .sendKeys(Keys.ENTER)
                 .perform();
         Thread.sleep(5000);
+    }
+    @Test
+    public void test03() throws InterruptedException {
+        // Navigate to https://html.com/tags/iframe/
+        driver.get("https://html.com/tags/iframe/");
+        // Page down until video is visible
+        Actions actions=new Actions(driver);
+        actions.sendKeys(Keys.PAGE_DOWN)
+                .sendKeys(Keys.PAGE_DOWN)
+                .perform();
+        // Play the video
+        WebElement iframe=driver.findElement(By.xpath("//iframe[@src='https://www.youtube.com/embed/owsfdh4gxyc']"));
+        driver.switchTo().frame(iframe);
+        driver.findElement(By.xpath("//button[@class='ytp-large-play-button ytp-button']")).click();
+        // Assert that the video is displayed
+        Thread.sleep(1000);
+        WebElement youTubeLink= driver.findElement(By.xpath("//a[@class='ytp-youtube-button ytp-button yt-uix-sessionlink']"));
+        Assert.assertTrue(youTubeLink.isDisplayed());
     }
 }
